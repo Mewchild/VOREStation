@@ -334,6 +334,283 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/shuttle/research/outpost
 	icon_state = "shuttle"
 
+// Polaris Shuttles
+
+/area/shuttle/response_ship
+	name = "\improper Response Team Ship"
+	icon_state = "centcom"
+	requires_power = 0
+	flags = RAD_SHIELDED
+	ambience = AMBIENCE_HIGHSEC
+
+/area/shuttle/response_ship/start
+	name = "\improper Response Team Base"
+	icon_state = "shuttlered"
+	base_turf = /turf/unsimulated/floor/
+
+/area/shuttle/response_ship/firstdeck
+	name = "north-west of first deck"
+	icon_state = "northwest"
+
+/area/shuttle/response_ship/seconddeck
+	name = "south-east of second deck"
+	icon_state = "southeast"
+
+/area/shuttle/response_ship/thirddeck
+	name = "north-east of third deck"
+	icon_state = "northeast"
+
+/area/shuttle/response_ship/planet
+	name = "planetside outpost"
+	icon_state = "shuttlered"
+
+/area/shuttle/response_ship/mining
+	name = "mining site"
+	icon_state = "shuttlered"
+	base_turf = /turf/space
+
+/area/shuttle/response_ship/arrivals_dock
+	name = "\improper docked with Southern Cross"
+	icon_state = "shuttle"
+
+/area/shuttle/response_ship/orbit
+	name = "in orbit of Sif"
+	icon_state = "shuttlegrn"
+	base_turf = /turf/space
+
+/area/shuttle/response_ship/sky
+	name = "hovering over skies of sif"
+	icon_state = "shuttlegrn"
+	base_turf = /turf/simulated/sky/west
+
+/area/shuttle/response_ship/sky_transit
+	name = "in flight over sif"
+	icon_state = "shuttlered"
+	base_turf = /turf/simulated/sky/moving/west
+
+/area/shuttle/response_ship/transit
+	name = "transit"
+	icon_state = "shuttlered"
+	base_turf = /turf/space
+
+//Polaris Escape Pods
+//Small Escape Pods
+
+/area/shuttle/escape_pod1
+	name = "\improper Escape Pod One"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod1/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/escape_pod1/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod1/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod2
+	name = "\improper Escape Pod Two"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod2/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/escape_pod2/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod2/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod3
+	name = "\improper Escape Pod Three"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod3/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/escape_pod3/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod3/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod4
+	name = "\improper Escape Pod Four"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod4/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/escape_pod4/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod4/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod5
+	name = "\improper Escape Pod Five"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod5/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/escape_pod5/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod5/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod6
+	name = "\improper Escape Pod Six"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod6/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/escape_pod6/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod6/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod7
+	name = "\improper Escape Pod Seven"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod7/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/reinforced/airless
+
+/area/shuttle/escape_pod7/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod7/transit
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod8
+	name = "\improper Escape Pod Eight"
+	music = "music/escape.ogg"
+
+/area/shuttle/escape_pod8/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/reinforced/airless
+
+/area/shuttle/escape_pod8/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/escape_pod8/transit
+	icon_state = "shuttle"
+
+//Large Escape Pods
+
+/area/shuttle/large_escape_pod1
+	name = "\improper Large Escape Pod One"
+	music = "music/escape.ogg"
+
+/area/shuttle/large_escape_pod1/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/large_escape_pod1/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/large_escape_pod1/transit
+	icon_state = "shuttle"
+
+/area/shuttle/large_escape_pod2
+	name = "\improper Large Escape Pod Two"
+	music = "music/escape.ogg"
+
+/area/shuttle/large_escape_pod2/station
+	icon_state = "shuttle2"
+	base_turf = /turf/simulated/floor/airless
+
+/area/shuttle/large_escape_pod2/centcom
+	icon_state = "shuttle"
+
+/area/shuttle/large_escape_pod2/transit
+	icon_state = "shuttle"
+
+//Polaris Merchant Shuttles
+
+/area/shuttle/merchant
+	icon_state = "shuttle"
+
+/area/shuttle/merchant/home
+	name = "\improper Merchant Vessel - Home"
+
+/area/shuttle/merchant/away
+	name = "\improper Merchant Vessel - Away"
+
+// Ninja areas
+/area/ninja_dojo
+	name = "\improper Ninja Base"
+	icon_state = "green"
+	requires_power = 0
+	flags = RAD_SHIELDED
+	ambience = AMBIENCE_HIGHSEC
+
+/area/ninja_dojo/dojo
+	name = "\improper Clan Dojo"
+	dynamic_lighting = 0
+
+/area/ninja_dojo/start
+	name = "\improper Clan Dojo"
+	icon_state = "shuttlered"
+	base_turf = /turf/simulated/floor/plating
+
+/area/ninja_dojo/firstdeck
+	name = "south of first deck"
+	icon_state = "south"
+
+/area/ninja_dojo/seconddeck
+	name = "north of second deck"
+	icon_state = "north"
+
+/area/ninja_dojo/thirddeck
+	name = "west of third deck"
+	icon_state = "west"
+
+/area/ninja_dojo/mining
+	name = "mining site"
+	icon_state = "shuttlered"
+
+/area/ninja_dojo/planet
+	name = "planet outposts"
+	icon_state = "shuttlered"
+
+/area/ninja_dojo/transit
+	name = "transit"
+	icon_state = "shuttlered"
+	base_turf = /turf/space/transit/north
+
+/area/ninja_dojo/orbit
+	name = "in orbit of Sif"
+	icon_state = "shuttlegrn"
+	base_turf = /turf/space
+
+/area/ninja_dojo/sky
+	name = "hovering over skies of sif"
+	icon_state = "shuttlegrn"
+	base_turf = /turf/simulated/sky/south
+
+/area/ninja_dojo/sky_transit
+	name = "in flight over sif"
+	icon_state = "shuttlered"
+	base_turf = /turf/simulated/sky/moving/south
+
+/area/ninja_dojo/arrivals_dock
+	name = "\improper docked with Southern Cross"
+	icon_state = "shuttle"
+	dynamic_lighting = 0
+
 /area/airtunnel1/      // referenced in airtunnel.dm:759
 
 /area/dummy/           // Referenced in engine.dm:261
